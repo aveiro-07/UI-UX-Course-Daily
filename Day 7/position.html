@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .box{
+            border: 2px solid red;
+            height: 100vh;
+            width: 50vw;
+            position: relative;
+            
+        }
+        .minibox{
+            height: 150px;
+            width: 150px;
+            border: 2px solid darkblue;
+            text-align: center;
+            align-content: center;
+            font-size: 2rem;
+        }
+        #static{
+            position: static; 
+            margin-top: 3rem;
+            /* z-index: 1; */
+        }
+        #relative{
+            position: relative;
+            top: 50px; 
+            background-color: aquamarine;
+            z-index: -1;
+        }
+        #absolute{
+            position: absolute;
+            /* top: 2rem; */
+            right: 0;
+            bottom: 0;
+            background-color: lightgrey;
+            z-index: 2;
+        }
+        #fixed{
+            position: fixed;
+            bottom: 1rem;
+            right: 1rem;
+            background-color: chartreuse;
+            border-radius: 50%;
+        }
+        #sticky{
+            position: sticky;
+            top: 0;
+            background-color: gold;
+        }
+    
+
+    </style>
+</head>
+<body>
+    
+    <h1>Position Types</h1>
+
+    <ol>
+        <li>Static(Default Position)</li>
+        <li>Relative(Own Position)</li>
+        <li>Absolute(Relative Parent)</li>
+        <li>Fixed(Scroll)</li>
+         <li>Sticky(Scroll) <!--(Scroll garda dekhinxa)--> </li> 
+    </ol>
+
+    <!-- ctrl + shift + l -->
+     <!-- ctrl + d -->
+
+    <div class="box">
+        <div class="minibox" id="static">Static</div>
+        <div class="minibox" id="relative">Relative</div>
+        <div class="minibox" id="absolute">Absolute</div>
+        <div class="minibox" id="fixed">Fixed</div>
+        
+    </div>
+    <div class="minibox" id="sticky">Sticky</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam quas fugiat ad libero, nisi perferendis, expedita totam aliquam, porro ea? Eum incidunt odio ipsum dignissimos similique nesciunt atque esse.</p>
+
+</body>
+</html>

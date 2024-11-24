@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+
+        .parent{
+            border: 2px solid;
+            height: 200px;
+
+            display: grid;
+
+            /* grid-template-columns: 100px 100px 200px 100px; */
+            /* grid-template-columns: 150px 50px 50px 50px; */
+            grid-template-columns: 50px 50px 50px 50px;
+            /* grid-template-columns: auto auto auto auto ; */
+            /* grid-template-columns: 1fr 2fr 1fr 1fr ; */
+            /* grid-template-columns: repeat(10, auto); */
+            
+            /* gap: 15px; */
+            /* gap: 15px 0px; */
+            /* row-gap: 10px; */
+            /* column-gap: 15px; */
+
+            grid-template-rows: 100px 50px ;
+
+            /* justify-items: center; */
+            /* justify-items: end; */
+            /* justify-items: start; */
+
+            /* align-items: center; */
+
+            /* justify-content: center; */
+
+            /* justify-content: space-around; */
+
+            /* align-content: center; */
+            align-content:space-around;
+            /* align-content: start; */
+            /* align-content: space-between; */
+        }
+        .child{
+            border: 2px solid red;
+            height: 50px;
+            width: 50px;
+
+            align-content: center;
+        }
+        #child1{
+            /* align-self: center; */
+
+            /* justify-self: center; */
+            /* justify-self: start; */
+            /* justify-self: end; */
+
+            grid-row: 1/3;
+            background-color: red;
+        }
+        #child2{
+            /* grid-column-start: 2; */
+            /* grid-column-end: 4; */
+            grid-column: 2/4;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="child" id="child1">1</div>
+        <div class="child" id="child2">2</div>
+        <div class="child" id="child3">3</div>
+        <div class="child" id="child4">4</div>
+        <div class="child" id="child5">5</div>
+        <div class="child" id="child6">6</div>
+        <div class="child" id="child7">7</div>
+        <div class="child" id="child8">8</div>
+        <!-- <div class="child">9</div> -->
+    </div>
+
+</body>
+</html>

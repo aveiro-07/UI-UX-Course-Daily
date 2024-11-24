@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /*    * => Universal Indicator    */
+        *{
+            margin: 0;
+        }
+
+        i{
+            font-size: 30px;
+        }   
+        ul{
+            /* list-style-type: disc;   -->Default */
+            list-style-type: none;
+        }
+
+        .box{
+            height: 500px;
+            width: 100%;
+            /* background-color: coral; */
+
+            /* overflow: auto; */
+            overflow-x: hidden;
+            overflow-y: scroll;
+            text-wrap: rap;
+
+            /* font-size: 2rem; */
+            /* 1rem = 16px */
+            /* html's font size => 20 px rakhyo vane 1rem = 20px */
+
+            font-size: 2em ; /* Since parent class ma pani default 16px xa hamle define gareko xainam */
+
+        }
+        .parent{
+            font-size: 20px;
+            height: 100vh;
+            /* width: 400px; */
+            background-color: rgb(0, 255, 38);
+            width: 20vw;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- <ul>
+        <li><i class="fa-brands fa-facebook"></i>Facebook</li>
+        <li><i class="fa-brands fa-instagram"></i>Instagram</li>
+        <li><i class="fa-brands fa-twitter"></i>Twitter</li>
+    </ul> -->
+
+
+    <!-- Note: Layout => Flexbox, Grid -->
+
+    <!-- css units -->
+
+    <!-- px(pixels) => Default Unit (16px), fixed(not used for responsive design)
+    rem => related to the root tag i.e. html's font size
+    em => related to the parent
+    % => related to the parent (ali differet)
+    vh => related to the viewport's height
+    vw => related to the viewport's width -->
+
+    <div class="parent">
+        <div class="box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet.  Sed sint, dolore illo commodi tempore numquam fugiat fuga beatae voluptas vel, nemo veritatis debitis ratione. Nemo, quo? Consequuntur possimus aperiam sit dignissimos et sapiente ipsum hic quo, iste nulla quod, est dolor inventore! Praesentium dolores quia quibusdam, ex fugit nobis aliquam.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.Voluptatum inventore adipisci ex, iste aspernatur perspiciatis facilis sit repellat soluta veritatis veniam quibusdam officiis nihil. Molestiae quis ut vel magnam ad dolorum ipsam omnis doloremque expedita facilis veniam cupiditate odit repellendus, eius nihil error esse possimus consequuntur! Optio distinctio placeat iusto?
+        </div>
+    </div>
+
+</body>
+</html>
