@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+</head>
+
+
+
+<style>
+    body{
+        height: 80vh;
+        width: 100vw;
+
+        align-content: center;
+        justify-items: center;
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: lightgreen;
+        border: 3px solid;
+
+    }
+
+    .minibox{
+        height: 200px;
+        width: 200px;
+        background-color: skyblue ;
+        transition: all 3s;
+        /* border-radius: 10%; */
+
+        /* animation-name: spin;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear; */
+    }
+    .minibox:hover{
+        /* transform: rotate(360deg); */
+        /* transform: rotateY(90deg); */
+
+        /* transform: scale(2); */
+        /* transform: scaleX(2); */
+        /* transform: scaleY(2); */
+
+        /* transform: skew(45deg); */
+        /* transform: skewX(45deg); */
+        /* transform: skewY(45deg); */
+
+        /* transform: translate(100px, 100px); */
+        /* transform: translateX(100px); */
+        transform: translateY(100px);
+
+        cursor: pointer;
+    }
+
+    /* @keyframes spin {
+        for{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    } */
+
+</style>
+
+<body>
+
+        <div class="box">
+            <div class="minibox">
+                <h>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, quisquam!</h>
+            </div>
+        </div>
+
+</body>
+</html>
