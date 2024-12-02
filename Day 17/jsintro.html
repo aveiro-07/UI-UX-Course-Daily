@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <script>
+      // variable => data storage
+
+      var a = 20;
+      console.log("Value of a:", a);
+      document.write(a);
+
+      // let, const
+
+      let number1 = 30;
+      number1 = 50;
+
+      const number2 = 40;
+      // number2 = 60;
+
+      console.log(number1);
+
+      // Data Types:
+      // 1. Number: 1,2,3
+      // 2. String: '',""
+      // 3. Object: {brand: "realme", price: "30k", processor: "snapdragon 721" }
+      // 4. Array:
+      //          [
+      //             {
+      //                 brand: "realme", price: "30k", processor: "snapdragon 721"
+      //             },
+      //             {
+      //                 brand: "1+", price: "45k", processor: "snapdragon 8th gen 3"
+      //             },
+      //             {
+      //                 brand: "oppo", price: "35k", processor: "snapdragon 888"
+      //             },
+      //          ]
+
+      //          [1,2,3,"book","colour","pen"]
+
+      let num = 40;
+      console.log(num, typeof num);
+
+      let name = "Ram";
+      console.log(name, typeof name);
+
+      let student = { name: "Ram", roll: 4, house: "Red" };
+      console.log(student, typeof student);
+
+      let product = [
+        {
+          brand: "realme",
+          price: "30k",
+          processor: "snapdragon 721",
+        },
+        {
+          brand: "1+",
+          price: "45k",
+          processor: "snapdragon 8th gen 3",
+        },
+        {
+          brand: "oppo",
+          price: "35k",
+          processor: "snapdragon 888",
+        },
+      ];
+        console.log(product, typeof(product));
+        console.log(product[0].brand);        
+
+    </script>
+  </body>
 </html>
